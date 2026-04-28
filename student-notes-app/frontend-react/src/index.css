@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #162130;
+  background: #f6f0e8;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+button,
+input,
+a {
+  font: inherit;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+}
